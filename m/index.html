@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title id="title">听松阁导航</title>
+  <meta name="keywords" content="导航">
+  <meta name="description" content="藏藏导航">
+  <link rel="stylesheet icon" href="img/icon.ico"/>
+  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jQuery.js"></script>
+  <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/slideout.css">
+  <script>
+    var now = new Date().getTime();
+    document.write('<link href="css/style.css?v=' + now + '" rel="stylesheet" type="text/css"/>');
+    // 百度统计
+   
+  </script>
+<noscript></head></noscript>
+<body>
+  <nav id="menu" class="menu">
+  <blockquote class="blockquote">▎ 网站导航</blockquote> 
+   <ul> 
+    <a target="_blank" href="./"><li class="sidenav-btn">侧边展开导航<p>蓝色</p></li></a> 
+    <a target="_blank" href="./xysdh/"><li class="sidenav-btn">响应式导航<p>蓝色</p></li></a> 
+   </ul> 
+   
+  	<blockquote class="blockquote">▎ 网络服务</blockquote> 
+   <ul> 
+    <a target="_blank" href="http://www.free163.com"><li class="sidenav-btn">听松阁<p>free163.com</p></li></a> 
+    <a target="_blank" href="http://www.free163.tk"><li class="sidenav-btn">听风阁<p>free163.tk</p></li></a> 
+    <a target="_blank" href="http://vip.2345.ltd/"><li class="sidenav-btn">视频解析<p>破解VIP视频</p></li></a> 
+    <a target="_blank" href="http://free.444.info/"><li class="sidenav-btn">免费空间<p>BY分销</p></li></a> 
+    <a target="_blank" href="http://mail.pu.cx/"><li class="sidenav-btn">免费邮局<p>pu.cx</p></li></a> 
+    <a target="_blank" href="http://kkkk.info"><li class="sidenav-btn">我的米表<p>kkkk.info</p></li></a> 
+    <a target="_blank" href="http://free345.com"><li class="sidenav-btn">免费资源博客<p>Free345</p></li></a> 
+    <a target="_blank" href="http://skycz.com"><li class="sidenav-btn">我的博客<p>Free345</p></li></a> 
+
+   </ul> 
+   
+  	<blockquote class="blockquote">▎网盘站</blockquote> 
+   <ul> 
+    <a target="_blank" href="http://cloud.2345.ltd"><li class="sidenav-btn">OneManager<p>cloud.2345.ltd</p></li></a> 
+    <a target="_blank" href="http://pan.2345.ltd"><li class="sidenav-btn">Sharelist<p>pan.2345.ltd</p></li></a> 
+    <a target="_blank" href="http://pan1.444.info"><li class="sidenav-btn">OneManager<p>Cloudflare搭建</p></li></a> 
+    <a target="_blank" href="http://gd.444.info"><li class="sidenav-btn">Goindex<p>谷歌盘挂载</p></li></a> 
+    <a target="_blank" href="https://drive.444.info"><li class="sidenav-btn">Cloudreve<p>Okteto搭建</p></li></a> 
+    <a target="_blank" href="http://alist.2345.ltd"><li class="sidenav-btn">Alist<p>阿里云盘挂载</p></li></a> 
+    <a target="_blank" href="http://free163.xjqxz.top/"><li class="sidenav-btn">Sharelist<p>国内站</p></li></a> 
+    <a target="_blank" href="http://kylehao.ysepan.com/"><li class="sidenav-btn">文件分享<p>YS168</p></li></a> 
+   </ul> 
+
+  	<blockquote class="blockquote">▎ 音乐网站</blockquote> 
+   <ul> 
+    <a target="_blank" href="http://odj.cc"><li class="sidenav-btn">在线音乐<p>odj.cc</p></li></a> 
+    <a target="_blank" href="http://44444.ltd"><li class="sidenav-btn">德云社<p>44444.ltd</p></li></a> 
+
+   </ul> 
+   
+   	<blockquote class="blockquote">▎ 相册网站</blockquote> 
+   <ul> 
+    <a target="_blank" href="https://pic.cloud.eu.org/"><li class="sidenav-btn">图床<p>Free.fr</p></li></a> 
+    <a target="_blank" href="http://660000.xyz/"><li class="sidenav-btn">唯美相册<p>唯美相册</p></li></a> 
+    <a target="_blank" href="http://photo.orgx.ga"><li class="sidenav-btn">春光美图<p>春光美图</p></li></a> 
+    <a target="_blank" href="http://loli.orgx.ga"><li class="sidenav-btn">萝莉<p>青春萝莉</p></li></a> 
+
+   </ul> 
+ 
+
+   <blockquote class="blockquote">▎ 设置</blockquote> 
+   <ul> 
+    <a href="#"><li class="sidenav-btn" id="night">夜间模式</li></a>
+    <a href="#"><li class="sidenav-btn" id="bg">干掉/显示壁纸</li></a>
+   </ul> 
+  </nav>
+
+  <!-- 主页面 -->
+  <main id="main" class="panel">
+  <!-- 天气 -->
+  <div id="tp-weather-widget"></div>
+   <!-- 主容器 -->
+   <div class="container">
+
+    <!-- 侧边栏按钮 -->
+    <img class="slidebtn btn-hamburger js-slideout-toggle" src="img/menu.svg" /> 
+    <!-- 搜索盒子 --> 
+    <div class="search-box"> 
+     <!-- logo --> 
+     <div id="logo"> 
+      <div id="state"> 
+       <a href="folder://"><img id="img" src="img/bing.png" height="121" width="300"/></a> 
+      </div> 
+     </div>
+
+     <!-- 搜索框 --> 
+     <div class="inputDiv">
+      <form id="form" action="https://cn.bing.com/search" target="_blank" onsubmit="return check()"> 
+      <input id="inputText" type="text" placeholder="Bing搜索..." name="q" size="30" baidusug="1" /> 
+      <button id="submitButton" class="submitButton" type="submit"></button>
+      </form>
+      <!-- 搜索提示词 -->
+      <div id="searchlist">
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+  
+    <!-- 书签 --> 
+    <div class="inputDiv"> 
+    <table>
+      <tr>
+    		<td height="30"></td>
+      </tr>
+      <tr >
+    		<td width="150"><a target="_blank" href="http://www.free163.com"><img id="img" src="img/sspai.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://www.skycz.com"><img id="img" src="img/bing-xs.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://www.660000.xyz"><img id="img" src="img/bilibili-xs.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://book.444.info"><img id="img" src="img/coolapk.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://movie.444.info"><img id="img" src="img/ding.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://down.444.info"><img id="img" src="img/headline.png" height="70" width="70" border="0" alt=""/></a> </td>
+    	</tr>	
+    	<tr>
+    		<td height="10"></td>
+      </tr>
+    	<tr>
+    		<td><a target="_blank" href="http://www.free163.com"><font color="#000000">诗词</font></a> </td>
+    		<td><a target="_blank" href="http://www.skycz.com"><font color="#000000">博客</font></a> </td>
+    		<td><a target="_blank" href="http://www.660000.xyz"><font color="#000000">相册</font></a> </td>
+    		<td><a target="_blank" href="http://book.444.info"><font color="#000000">小说</font></a> </td>
+    		<td><a target="_blank" href="http://movie.444.info"><font color="#000000">电影</font></a> </td>
+    		<td><a target="_blank" href="http://down.444.info"><font color="#000000">软件</font></a> </td>
+    	</tr>	
+    	<tr>
+    		<td height="30"></td>
+      </tr>
+      <tr >
+    		<td width="150"><a target="_blank" href="http://www.free163.tk"><img id="img" src="img/log.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://odj.cc"><img id="img" src="img/jingdong-xs.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://mail.pu.cx"><img id="img" src="img/seeres-xs.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://cloud.2345.ltd"><img id="img" src="img/sougou-xs.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://www.book.ga"><img id="img" src="img/yahoo-xs.png" height="70" width="70" border="0" alt=""/></a> </td>
+    		<td width="150"><a target="_blank" href="http://vip.2345.ltd"><img id="img" src="img/zhihulogo.png" height="70" width="70" border="0" alt=""/></a> </td>
+    	</tr>	
+    	<tr>
+    		<td><a target="_blank" href="http://www.free163.tk"><font color="#000000">诗神</font></a> </td>
+    		<td><a target="_blank" href="http://odj.cc"><font color="#000000">音乐</font></a> </td>
+    		<td><a target="_blank" href="http://mail.pu.cx"><font color="#000000">邮局</font></a> </td>
+    		<td><a target="_blank" href="http://cloud.2345.ltd"><font color="#000000">网盘</font></a> </td>
+    		<td><a target="_blank" href="http://www.book.ga"><font color="#000000">武侠</font></a> </td>
+    		<td><a target="_blank" href="http://vip.2345.ltd"><font color="#000000">视频</font></a> </td>
+    	</tr>	
+    </div> 
+
+
+
+   </div> 
+  </main>
+ 
+<script type="text/javascript" src="js/slideout.min.js"></script>
+<script type="text/javascript">
+  var slideout = new Slideout({
+    'panel': document.getElementById('main'),
+    'menu': document.getElementById('menu'),
+    'padding': 290,
+    'tolerance': 70
+  });
+  document.querySelector('.js-slideout-toggle').addEventListener('click',
+  function() {
+    slideout.toggle();
+  });
+  document.querySelector('.menu').addEventListener('click',
+  function(eve) {
+    if (eve.target.nodeName === 'A') {
+      slideout.close();
+    }
+  });
+  $(document).click(function(e) {
+    var Class = $(e.target).attr("class");
+    var Id = $(e.target).attr("id");
+    if (Class == 'panel slideout-panel slideout-panel-left' || Class == 'folder-item col-xs-3 col-sm-2' || Class == 'search-box' || Id == 'inputText' || Id == 'logo') {
+      slideout.close();
+    }
+  });
+</script>
+
+</body>
+<script type="text/javascript">
+  document.write('<script src="js/main.js?v=' + now + '"><\/script\>');
+</script>
+</html>
